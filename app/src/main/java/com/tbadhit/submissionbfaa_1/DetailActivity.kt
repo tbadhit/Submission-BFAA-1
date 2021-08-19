@@ -16,6 +16,8 @@ class DetailActivity : AppCompatActivity() {
         binding = ActivityDetailBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        supportActionBar?.title = resources.getString(R.string.appbar)
+
         val user = intent.getParcelableExtra<User>(EXTRA_USER) as User
 
         binding.apply {

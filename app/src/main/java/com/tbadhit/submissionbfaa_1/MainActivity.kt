@@ -32,6 +32,8 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        supportActionBar?.title = resources.getString(R.string.appbar)
+
         rvUser = binding.rvUsers
         rvUser.setHasFixedSize(true)
 

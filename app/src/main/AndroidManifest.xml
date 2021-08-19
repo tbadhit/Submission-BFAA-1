@@ -17,11 +17,9 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".DetailActivity"
-            android:label="@string/appbar" />
+            android:name=".DetailActivity"/>
         <activity
-            android:name=".MainActivity"
-            android:label="@string/appbar" />
+            android:name=".MainActivity"/>
     </application>
 
 </manifest>
